@@ -48,4 +48,4 @@ Um projeto feito a partir de um template de <a href="https://www.figma.com/file/
 ## <a name="pessoas">Autores</a>
 -  <a href="https://www.linkedin.com/in/gabriel-roberti-6521a727a/">Gabriel Fernandes Roberti</a>
 
-#### No mais, agradeço ao Guilherme pela oportunidade de me permitir participar do desafio, acolher a entrega e apresentar os pontos principais para que eu possa melhorar para futuramente seguir nessa jornada como Dev.
+#### No mais, agradeço ao Guilherme pela oportunidade de me permitir participar do desafio, acolher a entrega e apresentar os pontos principais para que eu possa melhorar e futuramente seguir nessa jornada como Dev.
