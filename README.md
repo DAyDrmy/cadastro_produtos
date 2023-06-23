@@ -1,34 +1,51 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Projeto - Cadastro de Produtos
 
-## Getting Started
+Um projeto feito a partir de um template de <a href="https://www.figma.com/file/JD6NxkjjVftlk44o9gX72g/Frontend?type=design&node-id=0-1&mode=design">Cadastro de Produtos</a>
 
-First, run the development server:
+## Índice
+-  <a href="#objetivo">Objetivo</a>
+-  <a href="#tecnologias">Tecnologias aqui propostas</a>
+-  <a href="#tecUtilizadas">Tecnologias utilizadas</a>
+-  <a href="#funcionalidades">Funcionalidades</a>
+-  <a href="#proximosPassos">Próximos Passos</a>
+-  <a href="#consideracoes">Considerações Finais</a>
+-  <a href="#pessoas">Pessoas Autoras</a>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## <a name="objetivo">Objetivo</a>
+- Esse projeto foi desenvolvido com o objetivo de praticar minhas habilidades com o desenvolvimento de um sistema em nível Dev Front-End a partir de um template que consta tela principal dos produtos, cadastro e a vizualização dos produtos cadastrados na tela principal.
+- Adicional ao projeto: tela de login.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## <a name="tecnologias">Tecnologias aqui propostas</a>
+- <a href="https://nextjs.org/">Next.js</a>
+- <a href="https://pt-br.legacy.reactjs.org/">React.js</a>
+- <a href="https://eslint.org">Eslint</a>
+- <a href="https://prettier.io">Prettier</a>
+- <a href="https://tailwindcss.com/">Tailwindcss</a>
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## <a name="funcionalidades">Funcionalidades</a>
+- O site era para ter as seguintes funcionalidades:
+  - Cadastrar produtos
+  - Usuários Agentes
+ 
+- Porém, no decorrer do desenovlvimento, notei bastante dificuldade em pontos que ainda preciso melhorar, uma delas é a utilização do javascript e também das grids e containers presentes no framework Tailwind.css 
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## <a name="tecUtilizadas">Tecnologias utilizadas</a>
+- <a href="https://tailwindcss.com/">Tailwindcss</a>
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+## <a name="proximosPassos">Proximos passos</a>
+-  Ajustar algumas divs que tornaram os componente desorganizados
+-  Configurar a responsividade do site
+-  Aplicar o RectJs e conseguir fazer a parte de cadastro dos itens e também a consulta de suas id's consumindo uma própria API cache
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## <a name="consideracoes">Considerações finais sobre o desenvolvimento</a>
+-  Como considerações finais, eu notei que preciso aprimorar os meus conhecimentos com o framework Tailwind.css, me aprofundar nas tecnologia ReacJs com o framework da NextJs utilizando-os com o template do Typescript.
+-  Melhorar a utilização dos containers e grids, presentes no framework do Tailwind
+-  Melhorar a criação de Classes do CSS presentes no Tailwind para poder padronizar estilos de botões, inputs e outros
+-  Aprender melhor a realizar os commits para deixá-los padronizados e não poluir os logs
+-  Melhorar a estruturação e organização dos códigos presentes nos arquivos.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## <a name="pessoas">Autores</a>
+-  <a href="https://www.linkedin.com/in/gabriel-roberti-6521a727a/">Gabriel Fernandes Roberti</a>
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+#### No mais, agradeço ao Guilherme pela oportunidade de me permitir participar do desafio, acolher a entrega e apresentar os pontos principais para que eu possa melhorar para futuramente seguir nessa jornada como Dev.
