@@ -1,0 +1,116 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/dist/output.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- faixa superior -->
+
+<div class="grid grid-cols-4 border-b border-indigo-300"> 
+    <div class="mx-6 my-20 grid-span-1">
+        <a href="index.html"><button class="text-white text-sm bg-gray-500 px-2 py-1 border-l-1 border-gray-500 rounded flex items-center hover:border-red-700 hover:bg-red-700 ease-in-out duration-500">
+            <svg class="w-4 h-4 mr-3" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"></path>
+              </svg>
+              Cancelar
+        </button></a>
+    </div>
+    <span class="grid-span1"></span>
+    <span class="grid-span1"></span>
+    <div class="col-span-1 my-20 mx-28 ">
+        <button class="text-white text-sm bg-indigo-500 px-2 py-1 border-l-1 border-indigo-500 rounded flex items-center hover:border-green-700 hover:bg-green-700 ease-in-out duration-500">
+            Salvar produto
+        </button>
+    </div>
+</div>
+
+   <!-- /faixa superior -->
+
+   <!-- centro -->
+<div class="grid grid-cols-4 grid-rows-2 h-56">
+    <span class="col-span-1"></span>
+        <div class="col-span-2 my-20">
+            <h1 class="font-bold text-2xl">Informação do Produto</h1>
+            <h3 class="text-base my-4">Detalhes do produto</h3>
+        </div>
+    <span class="col-span-1"></span>
+    <span class="col-span-1"></span>
+    <div class="col-span-2 my-20">
+        <form>
+            <label class="block">
+              <span class="block">Nome</span>
+              <input class="px-2 rounded-md w-96 border border-indigo-200 placeholder-indigo-400 contrast-more:border-indigo-400 contrast-more:placeholder-indigo-500"/>
+              
+              <span class="block my-4">Descrição</span>
+              <input class="px-2 rounded-md h-36 w-96 border border-indigo-200 placeholder-indigo-400 contrast-more:border-indigo-400 contrast-more:placeholder-indigo-500"/>
+            </label>
+          </form>    
+    </div>
+    <div class="col-span-1 my-20">
+        <h1 class="text mx-4">Imagem opcional</h1>
+        <label class="block">
+            <input type="file" class="px-2 block block-h w-full text-sm text-indigo-500
+              file:mr-4 file:py-12 file:px-4
+              file:border-indigo-100
+              file:text-sm file:font-semibold
+              file:bg-white file:text-violet-700
+              hover:file:bg-violet-100
+            "/>
+          </label>
+    </div>
+</div>
+
+    <!-- /centro -->
+
+    <!-- centro inferior-->
+
+    <div class="grid grid-cols-4 grid-rows-2 pt-40">
+        <span class="col-span-1"></span>
+            <div class="col-span-2 my-20">
+                <h1 class="font-bold text-2xl">Informação do Produto</h1>
+                <h3 class="text-base my-4">Detalhes do produto</h3>
+            </div>
+        <span class="col-span-1"></span>
+        <span class="col-span-1"></span>
+    <div class="col-span-2 relative -my-16">
+            <form>
+                <label class="block">
+                  <span class="block">Preço</span>
+                  <input placeholder="R$:" class="px-2 rounded-md w-96 border border-indigo-200 placeholder-indigo-400 contrast-more:border-indigo-400 contrast-more:placeholder-indigo-500"/>
+                  
+                </label>
+              </form>
+        
+        <button class="mx-10 px-6 py-3 text-black bg-white border text-sm border-indigo-500 rounded hover:text-white hover:border-indigo-700 hover:bg-indigo-700 ease-in-out duration-500">
+            Assinatura
+        </button>
+
+        <button class="mx-10 my-5 px-9 py-3 text-black text-sm bg-white border border-indigo-500 rounded hover:text-white hover:border-indigo-700 hover:bg-indigo-700 ease-in-out duration-500">
+            Uma Vez
+        </button>
+        <br>
+        <span>Período do pagamento</span>
+        <br>
+        <button class="flex my-2 px-40 py-2 text-black text-sm bg-white border border-indigo-500 rounded hover:text-white hover:border-indigo-700 hover:bg-indigo-700 ease-in-out duration-500">
+            <svg class="h-5 w-5 items-center" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="5 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5"></path>
+          </svg>
+        Selecione
+        </button>
+        <div>
+
+        </div>
+    </div>
+    <span class="col-span-1"></span>
+    </div> 
+    <!-- /centro inferior -->
+
+
+    </div>
+
+</body>
+
+</html>
